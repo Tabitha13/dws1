@@ -14,6 +14,7 @@ body {
 	
 #container{
 	border: 1px solid #665544;
+	opacity: 0.85;
 	background-color: #efefef;
 	padding: 10px,
 	border-radius: 10px;
@@ -36,13 +37,17 @@ ul {
 	list-style-type: disc;
 	}
 
+li {
+	padding: 5px;
+	}
+	
 a:link {
 	color: #991b56 ;
 	text-decoration: none;
 	}
 	
 a:visited {
-	color: #ffffff;
+	color: #555555;
 	}
 	
 a:hover {
@@ -64,7 +69,7 @@ h1, h2, h3 {
 	font-weight: bold;
 	padding: 0px 20px 0px 20px;
 	color: #9c0156;
-	t
+	line-height: 1em;
 	}
 	
 blockquote {
