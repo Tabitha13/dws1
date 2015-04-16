@@ -1,7 +1,24 @@
 body {
-	font-size: 80%;
+	font-size: 12px;
 	font-family: "helvetica", arial, sans-serif;
-	letter-spacing: 0.15em;	
-	background-color: #efefef;
+	letter-spacing: 0.25em;	
+	background-color: #ccf5fb;
 	}
 		
+a:link {
+	color: #991b56 ;
+	text-decoration: none;
+	}
+	
+a:visited {
+	color: #ffffff;
+	}
+	
+a:hover {
+	color: #2ad656;
+	text-decoration: underline;
+	}
+	
+a:active {
+	color: #f68e56;
+	}
