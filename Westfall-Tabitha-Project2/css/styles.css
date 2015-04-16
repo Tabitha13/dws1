@@ -6,7 +6,9 @@ body {
 	font-size: 12px;
 	font-family: arial, verdana, sans-serif;
 	width: 750px;
+	height: auto;
 	margin: 10px auto 10px auto;
+	
 	}
 	
 	
@@ -14,7 +16,14 @@ body {
 	border: 1px solid #665544;
 	background-color: #efefef;
 	padding: 10px,
+	border-radius: 10px;
+	-mox-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #777777;
+	-webkit-box-shaodow: 0 0 10px #777777;
+	box-shadow: 0 0 10px #777777;
 	}
+	
 	
 #header{
 	text-align: center;
@@ -41,10 +50,21 @@ a:active {
 	color: #f68e56;
 	}
 	
-	
+h1 {
+	text-shadow: 1px 1px 0px #959595;
+	font-size: 36px;
+	}
+		
 h1, h2, h3 {
 	font-family: 'Cabin', sans-serif;
 	font-weight: bold;
 	padding: 0px 20px 0px 20px;
+	color: #9c0156;
+	t
 	}
 	
+blockquote {
+	font-size: 18px;
+	color: #9c0156;
+	text-align: center;
+	}
