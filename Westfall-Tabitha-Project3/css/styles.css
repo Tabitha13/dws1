@@ -1,6 +1,8 @@
 /*blue background */
 html {
-	background-color: #c0eff5;
+	background-image: url("../images/pattern_103.gif");
+	background-repeat: repeat;
+	
 	}
 /*center page 	*/
 body {
@@ -15,7 +17,7 @@ body {
 /*grey background box and content */	
 .container {
 	border: 1px solid #665544;
-	opacity: 0.85;
+	
 	background-color: #efefef;
 	padding: 10px;
 	border-radius: 10px;
@@ -31,6 +33,10 @@ body {
 /* center boomerang title */	
 #header{
 	text-align: center;
+	background-image: url("../images/australia5.png");
+	background-repeat: no-repeat;
+	background-position: left-center;
+	
 	}
 p {
 	padding: 10px;
@@ -49,8 +55,15 @@ li {
 #navi li {
 	margin: 0px 50px 0px 50px;
 	display: inline;
-	}
 	
+	
+	
+	}
+#navi {
+	padding: 0px auto;
+	width: 100%;
+	text-align: center;
+	}
 	
 /*link styles */
 a:link {
@@ -73,7 +86,7 @@ a:active {
 /*only affects header */	
 h1 {
 	text-shadow: 1px 1px 0px #959595;
-	font-size: 36px;
+	font-size: 3.250em;
 	}
 		
 h1, h2, h3 {
@@ -82,10 +95,11 @@ h1, h2, h3 {
 	padding: 0px 20px 0px 20px;
 	color: #9c0156;
 	line-height: 1em;
+
 	}
 	
 blockquote {
-	font-size: 18px;
+	font-size: 1.125em;
 	color: #9c0156;
 	text-align: center;
 	font-style: oblique;
@@ -102,7 +116,10 @@ blockquote {
 .column2of2 {
 	float: left;
 	width: 20%;
-	margin: 1%;
+	margin: 1%
+	border: 1px solid #000000;
+	background-color: red;
+	
 	
 	}
 	
