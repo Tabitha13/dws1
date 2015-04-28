@@ -42,7 +42,7 @@ background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C */
 	}
 	
 /* center boomerang title */	
-#header{
+header{
 	text-align: center;
 	
 	
@@ -61,14 +61,14 @@ li {
 	
 	}
 	/*specifically changes navigation list items */
-#navi li {
+nav li {
 	margin: 0px 50px 0px 50px;
 	display: inline;
 	
 	
 	
 	}
-#navi {
+nav {
 	width: 100%;
 	text-align: center;
 	}
@@ -151,5 +151,15 @@ blockquote {
 	
 
 
-
+table {
+	width: 68%;
+	}
+	
+th, td {
+	padding: 5px 4px;
+	}
+	
+th {
+	text-transform: uppercase;
+	}
 
