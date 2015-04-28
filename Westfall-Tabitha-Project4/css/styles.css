@@ -38,7 +38,7 @@ background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C */
 	
 	background:
 		url("../images/howto.png") no-repeat right bottom;
-	overflow: scroll;
+
 	}
 	
 /* center boomerang title */	
@@ -99,15 +99,12 @@ h1 {
 		
 h1, h2, h3 {
 	font-family: 'Cabin', sans-serif;
-	
+	font-weight: bold;
 	padding: 0px 20px 0px 20px;
 	color: #9c0156;
 	line-height: 1em;
 
 	}
-h2, h3 {
-	font-weight: normal;
-	}	
 	
 blockquote {
 	font-size: 1.125em;
@@ -145,7 +142,7 @@ blockquote {
 
 
 	
-.resources {
+.clear {
 	clear: both;
 	}
 	
