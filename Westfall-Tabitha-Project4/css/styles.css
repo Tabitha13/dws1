@@ -228,3 +228,19 @@ form {
  	float: none;
  	padding: 5px 10px 0px 10px;
  	}
+ 	
+ input:focus {
+ 	background-color: #ffffff; 
+	 border: 1px solid #b1e1e4;
+	 
+	} 
+.submit:hover {
+ color: #333333;
+ float: none;
+}
+
+
+footer {
+	color: #efefef;
+	text-align: center;
+	}
