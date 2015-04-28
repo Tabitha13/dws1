@@ -200,7 +200,31 @@ tr:hover {
 
 /* Form Styles */
 
-input {	
-	font-size: 0.750em;
-	padding: 5px 5px 5px 30px; 
+
+form {
+	width: 68%;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+	font-size: 1.063em;
+	padding: 5px 10px;
+	margin: 10px;
+	color: #9c0156;
+	text-align: left;
+	border-radius: 10px;
+	-mox-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #777777;
+	-webkit-box-shaodow: 0 0 10px #777777;
+	box-shadow: 0 0 10px #777777;
 	}
+	
+.radio-buttons label {
+ 	float: none;
+ 	}
+.submit {
+ 	text-align: right;
+ 	}
+ select {
+ 	float: none;
+ 	padding: 5px 10px 0px 10px;
+ 	}
