@@ -149,7 +149,7 @@ blockquote {
 	clear: both;
 	}
 	
-
+/* Table Styles */
 
 table {
 	width: 68%;
@@ -193,3 +193,14 @@ tr:hover {
 	color: #ffffff;
  
  }
+
+
+
+
+
+/* Form Styles */
+
+input {	
+	font-size: 0.750em;
+	padding: 5px 5px 5px 30px; 
+	}

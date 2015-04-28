@@ -26,6 +26,7 @@
 				<li> <a href=" #design"> Design </a>  </li>
 				<li> <a href=" #gallery"> Gallery</a>  </li>
 				<li> <a href=" #records"> World Records</a>  </li>
+				<li> <a href=" #newsletter"> Newsletter</a>  </li>
 			</ul>
 		</nav>
 		</header>
@@ -223,6 +224,51 @@
 				<td> 1997 </td>
 			</tr>
 		</table>
+		
+		<!--form -->
+		
+		
+		
+		<h2 id="newletter"> Subscribe to our Monthly Newsletter!</h2>
+		<form action="http://www.example.com/signup.php ">
+		
+		<!--name text input-->
+		<p> Name: 
+			<input type= "text" name="name" size="20" maxlength="30" required="required" placeholder="required"/>
+		</p>
+		<!-- Age Dropdown -->
+		<p> Please select your age range: </p>
+		<select name="ages">
+			<option value="0-18"> 0-18 years </option>
+			<option value="19-29"> 19-29 years </option>
+			<option value="30-50"> 30-50 years </option>
+			<option value="51+"> 51+ years </option>
+		</select>
+		<br />
+		
+		<!-- gender radio buttom -->
+		Gender:
+		 <input id="male" type="radio" name="gender" value="m">
+		 <label for="male"> Male </label>
+		 <input id="female" type="radio" name="gender" value="f">
+		 <label for="female"> Female </label> 
+		 
+		 
+		<!--email -->
+		 <p> Email:
+ 	 	<input type="text" name="email" required="required" />
+  		</p>
+  		
+  		<!-- comments -->
+  		<textarea name="comments" cols="30" rows="5" >
+  		Comments or Suggestions
+		</textarea>
+		
+		<!--submit button -->
+		<p> Subscribe </p>
+		<input type="submit" name="subscribe" value="subscribe" />
+		</form>
+
 		
 		
 		
