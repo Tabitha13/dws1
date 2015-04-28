@@ -153,13 +153,43 @@ blockquote {
 
 table {
 	width: 68%;
+	border-spacing: 5px 15px;
+
 	}
 	
 th, td {
-	padding: 5px 4px;
+	padding: 5px 10px;
+	text-align: center;
+	
 	}
 	
 th {
 	text-transform: uppercase;
+	font-size: 1.063em;
+
+	
+	}
+th.right {
+	border-left: 2px solid #9c0156;
+	border-right: 1px solid #999;
+	}
+	
+th.top {
+	border-bottom: 2px solid #9c0156;
+	border-top: 1px solid #999;
+	}
+	
+td {
+	font-size: 0.875em;
 	}
 
+tr.even {
+ 	background-color: #efefef;
+ 	}
+
+
+tr:hover {
+	background-color: #9c0156;
+	color: #ffffff;
+ 
+ }
