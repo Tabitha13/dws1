@@ -23,8 +23,13 @@ header {
 	margin: 0px;
 	}
 
+h1 {
+	display: none;
+	}
 	
-
+header img{
+	padding-left 64px, 0px;
+	}
 	
 	
 /*------------NAVIGATION------------*/
