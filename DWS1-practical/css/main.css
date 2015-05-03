@@ -10,25 +10,28 @@ body {
 	overflow: scroll;
 	
 }
+
+/*---------HEADER--------------*/
 header {
 	background:
 		url("../images/logo.gif"), url("../images/header-bg.jpg")  ;
 		background-position: center left, center top;
 		background-repeat: no-repeat;
+		padding-left: 64px auto;
+		
 	height: 210px;
 	width: 960px;
 	margin: 0px;
-	z-index: 5;
 	}
 
-img header {
-	margin-left: 64px;
-	}
-
-		
+	
 h1 {
 	display: hidden;
 	}
+	
+	
+	
+/*------------NAVIGATION------------*/
 	
 nav ul{
 	padding-right: 64px;
@@ -36,14 +39,14 @@ nav ul{
 	float: right;
 	width: 277px;
 	overflow: hidden;
-	}		
+	}	
+
+/*--------LINKS-----------*/
+		
 nav li{
 	display: inline;
 	margin: 5px;
-	
 	}
-
-	
 	
 a:link{
 	color: #423b2e;
@@ -66,8 +69,10 @@ a:active {
 	color: #bf3102;
 	text-decoration: none;
 	text-transform: uppercase;
-}
-
+	}
+	
+	
+/*-----------MAIN CONTENT----------*/
 
 #main-content {
 	background: 
@@ -86,44 +91,70 @@ a:active {
 	
 	}
 	
+
+
+/*-------------STUFF FOR BOTH COLUMNS --------------*/
+
+.page-flip {
+	background:
+		url("../images/page-flip.gif") no-repeat bottom left ;
+	padding-bottom: 45px;
+	
+		}
+		
 h2 {
 	color: #423b2e;
 	font-size: 1.5em;
 	border-bottom: 2px solid #423b2e;
-}
+	}	
 	
+/*-------------COLUMN 1 STUFF -------------------------*/
+			
 #column1of2 {
 	width: 450px;
 	float: left;
 	margin: auto 22px auto 64px;
 	clear: both;
-	overflow: auto;
 	padding: auto auto 45px 25px;
 	
 	}
+#column1of2 p{
+	padding-left: 25px;
+	}
+	
+	
+/* ------------COLUMN 2 STUFF----------------------- */
+
 #column2of2 {
 	width: 260px;
 	float: left;
 	padding: auto auto 45px 25px;
 	margin: auto 64px auto 22px;
-	overflow: scroll;
+	overflow: auto;
+	
+	}
+#column2of2 p{
+	margin-left: 25px;
+	border-bottom: 2px solid #423b2e;
+	vertical-align:middle;
+	display: block;
+	float: left;
+	padding-bottom: 10px;
 	}
 	
 img {
 	border: 3px solid white;
-	display: block;
-	
+	float: left;
+	margin-right: 10px;
 	}
 	
+img p {
+	
+	} 
+	
 
- 
-.page-flip {
-	background:
-		url("../images/page-flip.gif") no-repeat bottom left ;
-	
-	
-		}
-	
+
+/*------------------FOOTER --------------------*/
 
 footer {
 	color: #423b2e;
@@ -136,6 +167,10 @@ footer {
 	width: 960px;
 	height: 210px;
 	margin: 0px;
-	
+	overflow: auto;
 
+	}
+
+footer p {
+	margin-top: 92px;
 	}
