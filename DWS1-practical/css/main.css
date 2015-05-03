@@ -9,17 +9,64 @@ body {
 }
 header {
 	background:
-		url("../images/header-bg.jpg") no-repeat top;
+		url("../images/header-bg.jpg") no-repeat ;
+		height: 210px;
+		width: 960px;
+		
+		
 		}
-nav{
+nav li{
+	display: inline;
+	float: right;
+	padding: 84px 64px auto auto;
 	}
+	
+	
+a:link{
+	color: #423b2e;
+	text-decoration: none;
+	text-transform: uppercase;
+	}
+	
+a:active {
+	color: #bf3102;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
 #main-content {
 	background: 
 		url("../images/main-content-bg.jpg") repeat-y top;
+		}
+		
+#banner {
+	background:
+		url("../images/banner.jpg") no-repeat top;
+	}
+	
+#column1of2 {
+	width: 450px;
+	float: left;
+	padding: auto 22px auto 64px;
+	
+	
+	}
+#column2of2 {
+	width: 260px;
+	
+	}
+	
+.page-flip {
+	background:
+		url("../images/page-flip.gif") no-repeat fixed left bottom;
+		}
+	
 
 footer {
 	color: #423b2e;
 	font-size: 0.9em;
 	text-align: center;
+	clear: both;
 
 	}
