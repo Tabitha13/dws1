@@ -1,0 +1,25 @@
+/*------ Main Styles -----*/
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: .75em/1.5em Helvetica, Arial, sans-serif;
+	color: #797267;
+	width: 960px;
+	background: #797267;
+}
+header {
+	background:
+		url("../images/header-bg.jpg") no-repeat top;
+		}
+nav{
+	}
+#main-content {
+	background: 
+		url("../images/main-content-bg.jpg") repeat-y top;
+
+footer {
+	color: #423b2e;
+	font-size: 0.9em;
+	text-align: center;
+
+	}
