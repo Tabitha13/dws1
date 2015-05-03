@@ -6,24 +6,46 @@ body {
 	color: #797267;
 	width: 960px;
 	background: #797267;
+	height: auto;
+	overflow: scroll;
+	
 }
 header {
 	background:
 		url("../images/header-bg.jpg") no-repeat ;
 		height: 210px;
 		width: 960px;
-		
-		
+		margin: 0px;
 		}
+	
+nav ul{
+	padding-right: 64px;
+	padding-top: 84px;
+	float: right;
+	width: 277px;
+	overflow: hidden;
+	}		
 nav li{
 	display: inline;
-	float: right;
-	padding: 84px 64px auto auto;
+	margin: 5px;
+	
 	}
+
 	
 	
 a:link{
 	color: #423b2e;
+	text-decoration: none;
+	text-transform: uppercase;
+	}
+a:visited{
+	color: #bf3102;
+	text-decoration: none;
+	text-transform: uppercase;
+	}
+
+a:hover {
+	color: #bf3102;
 	text-decoration: none;
 	text-transform: uppercase;
 	}
@@ -38,28 +60,38 @@ a:active {
 #main-content {
 	background: 
 		url("../images/main-content-bg.jpg") repeat-y top;
+		margin: 0px;
+	width: 960px;
+	height: auto;
+	overflow: auto;
 		}
 		
 #banner {
-	background:
-		url("../images/banner.jpg") no-repeat top;
+	background-image: url("../images/banner.jpg");
+	
 	}
 	
 #column1of2 {
 	width: 450px;
 	float: left;
-	padding: auto 22px auto 64px;
+	margin: auto 22px auto 64px;
+	clear: both;
+	overflow: auto;
+	
 	
 	
 	}
 #column2of2 {
 	width: 260px;
+	float: left;
+	
 	
 	}
 	
 .page-flip {
 	background:
 		url("../images/page-flip.gif") no-repeat fixed left bottom;
+
 		}
 	
 
@@ -67,6 +99,8 @@ footer {
 	color: #423b2e;
 	font-size: 0.9em;
 	text-align: center;
+	background:
+		url("../images/footer-bg.jpg") no-repeat fixed;
 	clear: both;
 
 	}
