@@ -17,7 +17,6 @@ header {
 		url("../images/logo.gif"), url("../images/header-bg.jpg")  ;
 		background-position: center left, center top;
 		background-repeat: no-repeat;
-		padding-left: 64px auto;
 		
 	height: 210px;
 	width: 960px;
@@ -25,10 +24,7 @@ header {
 	}
 
 	
-h1 {
-	display: hidden;
-	}
-	
+
 	
 	
 /*------------NAVIGATION------------*/
@@ -115,7 +111,7 @@ h2 {
 	float: left;
 	margin: auto 22px auto 64px;
 	clear: both;
-	padding: auto auto 45px 25px;
+	padding: 0px 0px 45px 25px;
 	
 	}
 #column1of2 p{
@@ -128,7 +124,7 @@ h2 {
 #column2of2 {
 	width: 260px;
 	float: left;
-	padding: auto auto 45px 25px;
+	padding: 0px 0px 45px 25px;
 	margin: auto 64px auto 22px;
 	overflow: auto;
 	
